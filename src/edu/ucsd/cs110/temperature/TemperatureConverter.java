@@ -16,7 +16,7 @@ public class TemperatureConverter {
         {
             System.out.println("\nAvailable units: C, F");
 
-            System.out.print("Enter temperature to convert (i.e. 36.8 C, 451 F): ");
+            System.out.print("Enter temperature to convert (i.e. 36.8 C, 451 F): ");i
             if((input = reader.readLine()) == null) System.exit(0);
             String[] temp_in = input.split(" ");
             float temp_val = Float.parseFloat(temp_in[0]);
